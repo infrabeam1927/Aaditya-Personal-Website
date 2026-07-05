@@ -1,0 +1,52 @@
+[
+  {
+    "id": "incoming-developer",
+    "role": "Incoming Developer",
+    "organization": "Financial Institution",
+    "period": "Starting July 2026",
+    "type": "work",
+    "description": "Joining a fintech engineering team to build and modernize software systems, bringing an engineering-first approach to full-stack development and automation.",
+    "highlights": [
+      "Transitioning from hardware-focused engineering into a full-time software developer role",
+      "Focused on building reliable, data-driven financial applications"
+    ]
+  },
+  {
+    "id": "operations-analyst",
+    "role": "Operations Analyst",
+    "organization": "Blumont Annuity",
+    "period": "2023 – 2026",
+    "type": "work",
+    "description": "Owned and optimized data workflows across annuity operations, replacing manual processes with automated, auditable pipelines.",
+    "highlights": [
+      "Designed automation scripts to streamline recurring data workflows",
+      "Improved accuracy and turnaround time of operational reporting",
+      "Worked closely with stakeholders to translate business needs into technical solutions"
+    ]
+  },
+  {
+    "id": "app-programmer-analyst",
+    "role": "Application Programmer Analyst (Internship)",
+    "organization": "Ontario Public Service",
+    "period": "16-month term",
+    "type": "work",
+    "description": "Contributed to a 16-month internship focused on legacy system modernization within a large public sector technology environment.",
+    "highlights": [
+      "Migrated and refactored legacy codebases to improve maintainability",
+      "Developed internal software tools to support day-to-day operations",
+      "Managed and optimized databases supporting production applications"
+    ]
+  },
+  {
+    "id": "mcmaster-degree",
+    "role": "Mechatronics Engineering, B.Eng.",
+    "organization": "McMaster University",
+    "period": "Graduated",
+    "type": "education",
+    "description": "Built a strong foundation across hardware, embedded systems, controls, and software — the engineering mindset that now drives a systematic approach to building applications.",
+    "highlights": [
+      "Coursework spanning embedded systems, control theory, and software design",
+      "Hands-on capstone and lab projects blending hardware precision with software logic"
+    ]
+  }
+]

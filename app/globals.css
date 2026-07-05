@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100 transition-colors duration-300;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply px-6 sm:px-10 lg:px-24;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-accent-500 to-emerald-300 bg-clip-text text-transparent;
+  }
+}
+
+::selection {
+  @apply bg-accent-500/30;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-zinc-300 dark:bg-zinc-700 rounded-full;
+}

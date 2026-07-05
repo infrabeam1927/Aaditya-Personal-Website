@@ -1,0 +1,18 @@
+[
+  {
+    "id": "lucid",
+    "title": "Lucid",
+    "description": "A local budgeting and data visualization app that turns raw personal finance data into an interactive dashboard. Built with a Python backend and SQL-backed storage for reliable, structured data handling.",
+    "tech": ["Python", "SQL", "Data Visualization"],
+    "tag": "Full-Stack",
+    "codeUrl": "https://github.com/infrabeam1927/lucid"
+  },
+  {
+    "id": "chat-with-my-pdf",
+    "title": "Chat with my PDF",
+    "description": "A local retrieval-augmented generation (RAG) pipeline for querying personal documents entirely offline. Combines a vector database with an LLM to answer natural-language questions grounded in your own PDFs.",
+    "tech": ["Python", "Vector Database", "LLM Integration"],
+    "tag": "AI/Python",
+    "codeUrl": "https://github.com/infrabeam1927/chat-with-my-pdf"
+  }
+]
