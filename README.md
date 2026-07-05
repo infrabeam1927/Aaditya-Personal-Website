@@ -2,6 +2,8 @@
 
 A personal portfolio site built with Next.js 14 (App Router, TypeScript), Tailwind CSS, and Framer Motion.
 
+![Portfolio screenshot](docs/screenshot-hero.png)
+
 ## Stack
 
 - **Framework:** Next.js 14 (App Router)
