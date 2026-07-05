@@ -11,7 +11,7 @@ const LINKS = [
   },
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/in/infrabeam1927",
+    href: "https://www.linkedin.com/in/aadityaroshan/",
     icon: Linkedin,
   },
   {
