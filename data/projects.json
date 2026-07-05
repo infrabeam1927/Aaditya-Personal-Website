@@ -1,18 +1,52 @@
 [
   {
-    "id": "lucid",
-    "title": "Lucid",
-    "description": "A local budgeting and data visualization app that turns raw personal finance data into an interactive dashboard. Built with a Python backend and SQL-backed storage for reliable, structured data handling.",
-    "tech": ["Python", "SQL", "Data Visualization"],
+    "id": "aaditya-personal-website",
+    "title": "Aaditya Personal Website",
+    "description": "This portfolio itself — a component-based Next.js site with a typed content layer, a persisted light/dark theme, and Framer Motion animations throughout, built to be the front door to everything else here.",
+    "tech": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     "tag": "Full-Stack",
-    "codeUrl": "https://github.com/infrabeam1927/lucid"
+    "codeUrl": "https://github.com/infrabeam1927/Aaditya-Personal-Website"
   },
   {
-    "id": "chat-with-my-pdf",
-    "title": "Chat with my PDF",
-    "description": "A local retrieval-augmented generation (RAG) pipeline for querying personal documents entirely offline. Combines a vector database with an LLM to answer natural-language questions grounded in your own PDFs.",
-    "tech": ["Python", "Vector Database", "LLM Integration"],
-    "tag": "AI/Python",
-    "codeUrl": "https://github.com/infrabeam1927/chat-with-my-pdf"
+    "id": "excel-schema-diff",
+    "title": "Excel Schema Diff",
+    "description": "A reconciliation tool for matching member records between an internal system and an external consultant feed, where the same fields arrive under different headers and formats. The mapping table drives everything, so onboarding a new data source means editing a spreadsheet, not the code — a direct extension of the operations automation work behind Blumont's annuity data pipelines.",
+    "tech": ["Python", "openpyxl", "Data Reconciliation"],
+    "tag": "Automation",
+    "codeUrl": "https://github.com/infrabeam1927/excel-schema-diff"
+  },
+  {
+    "id": "the-market-watcher",
+    "title": "The Market Watcher",
+    "description": "A full-stack stock price tracker with a Swagger-documented REST API pulling live quotes from the Twelve Data API, plus a lightweight frontend for searching symbols and reviewing recent lookups — a small bet on the fintech and markets side of software.",
+    "tech": ["Node.js", "Express", "REST API", "Swagger"],
+    "tag": "Full-Stack",
+    "codeUrl": "https://github.com/infrabeam1927/The-Market-watcher"
+  },
+  {
+    "id": "bracket-predictor",
+    "title": "2026 FIFA World Cup Bracket Predictor",
+    "description": "The most complex logic I've shipped in a single file: a full 48-team, 12-group bracket predictor with drag-and-drop group ranking, third-place wildcard selection, and a knockout bracket where every pick cascades automatically through the rest of the tournament. Zero dependencies, state persisted to localStorage.",
+    "tech": ["JavaScript", "HTML/CSS", "LocalStorage"],
+    "tag": "Games",
+    "codeUrl": "https://github.com/infrabeam1927/Bracket-Predictor",
+    "demoUrl": "https://infrabeam1927.github.io/Bracket-Predictor/"
+  },
+  {
+    "id": "cool-math-games",
+    "title": "Math Games Arcade",
+    "description": "Six classic browser games — 2048, Snake, Memory Match, Math Sprint, Tic-Tac-Toe with a minimax CPU, and Breakout — built in one dependency-free HTML file with a shared dark neon theme and persisted best scores. More about range and polish than any single hard problem.",
+    "tech": ["JavaScript", "HTML/CSS", "LocalStorage"],
+    "tag": "Games",
+    "codeUrl": "https://github.com/infrabeam1927/COOL-MATH-GAMES",
+    "demoUrl": "https://infrabeam1927.github.io/COOL-MATH-GAMES/"
+  },
+  {
+    "id": "lucidflow",
+    "title": "LucidFlow Budget",
+    "description": "A personal budgeting stack with a Flask + SQLAlchemy API backed by SQLite, and a dashboard that visualizes income, expenses, and net investments through a live Plotly Sankey diagram. The deepest technical dive of the group, from data model to chart rendering.",
+    "tech": ["Python", "Flask", "SQLite", "Plotly"],
+    "tag": "Full-Stack",
+    "codeUrl": "https://github.com/infrabeam1927/lucidFlow"
   }
 ]

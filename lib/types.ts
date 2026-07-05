@@ -1,4 +1,4 @@
-export type ProjectTag = "AI/Python" | "Full-Stack";
+export type ProjectTag = "Full-Stack" | "Automation" | "Games";
 
 export interface Project {
   id: string;
@@ -7,6 +7,7 @@ export interface Project {
   tech: string[];
   tag: ProjectTag;
   codeUrl: string;
+  demoUrl?: string;
 }
 
 export type ExperienceType = "work" | "education";
