@@ -47,10 +47,8 @@ export function Aaditya() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="max-w-2xl text-lg text-zinc-600 dark:text-zinc-400"
         >
-          Coming from a Mechatronics Engineering background at McMaster
-          University, I&apos;m transitioning into a developer role in
-          fintech — applying an engineer&apos;s discipline to building
-          reliable, automated software.
+          I&apos;m a Mechatronics graduate and developer specializing in
+          building clean data automation and full-stack software solutions.
         </motion.p>
 
         <motion.div
