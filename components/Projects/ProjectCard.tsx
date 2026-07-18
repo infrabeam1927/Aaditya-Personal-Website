@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 import type { Project } from "@/lib/types";
+import { PROJECT_TAG_STYLES } from "@/lib/colors";
 
 export function ProjectCard({ project }: { project: Project }) {
   return (
@@ -19,7 +20,9 @@ export function ProjectCard({ project }: { project: Project }) {
         <h3 className="text-xl font-semibold text-zinc-900 dark:text-zinc-100">
           {project.title}
         </h3>
-        <span className="whitespace-nowrap rounded-full bg-accent-100 px-3 py-1 text-xs font-medium text-accent-700 dark:bg-accent-900/40 dark:text-accent-300">
+        <span
+          className={`whitespace-nowrap rounded-full px-3 py-1 text-xs font-medium ${PROJECT_TAG_STYLES[project.tag]}`}
+        >
           {project.tag}
         </span>
       </div>
