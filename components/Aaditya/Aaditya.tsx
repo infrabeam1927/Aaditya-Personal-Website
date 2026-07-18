@@ -11,10 +11,10 @@ function scrollToProjects() {
 
 const CODE_LINES = [
   { key: "role", value: '"Software Developer"' },
+  { key: "focus", value: '["Fintech", "Automation", "Full-Stack"]' },
   { key: "background", value: '"Mechatronics Engineering"' },
-  { key: "focus", value: '["Full-Stack", "Automation", "Fintech"]' },
-  { key: "stack", value: '["Python", "TypeScript", "SQL", "React"]' },
-  { key: "status", value: '"Building reliable systems"' },
+  { key: "stack", value: '["Python", "SQL", "VBA", "TypeScript"]' },
+  { key: "status", value: '"Building reliable financial systems"' },
 ];
 
 function HeroCodeCard() {
@@ -83,7 +83,7 @@ export function Aaditya() {
             transition={{ duration: 0.5 }}
             className="font-mono text-sm uppercase tracking-widest text-accent-600 dark:text-accent-400"
           >
-            Software Developer &middot; Mechatronics Engineer
+            Software Developer &middot; Fintech &amp; Automation
           </motion.p>
 
           <motion.h1
@@ -93,8 +93,7 @@ export function Aaditya() {
             className="text-5xl font-extrabold leading-[1.05] tracking-tighter sm:text-6xl lg:text-7xl"
           >
             Hi, I&apos;m <span className="text-gradient">Aaditya</span>. I
-            bridge the gap between hardware precision and intelligent
-            software automation.
+            build reliable automation for financial data.
           </motion.h1>
 
           <motion.p
@@ -103,8 +102,9 @@ export function Aaditya() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="max-w-2xl text-lg text-zinc-600 dark:text-zinc-400"
           >
-            I&apos;m a Mechatronics graduate and developer specializing in
-            building clean data automation and full-stack software solutions.
+            A Mechatronics engineer turned software developer, building
+            full-stack automation for fintech and operations &mdash; from
+            annuity data pipelines to market-data tools.
           </motion.p>
 
           <motion.div

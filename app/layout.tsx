@@ -18,7 +18,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Aaditya | Software Developer",
   description:
-    "Aaditya's personal portfolio — bridging hardware precision and intelligent software automation.",
+    "Aaditya's personal portfolio — building reliable automation for financial data and operations.",
 };
 
 const themeInitScript = `
