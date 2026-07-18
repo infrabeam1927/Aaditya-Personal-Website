@@ -23,14 +23,17 @@ const INTERESTS: Interest[] = [
 
 export function About() {
   return (
-    <section id="about" className="section-padding py-24 sm:py-32">
+    <section
+      id="about"
+      className="section-padding bg-zinc-50/70 py-24 dark:bg-white/[0.02] sm:py-32"
+    >
       <div className="mx-auto max-w-5xl">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.5 }}
-          className="text-3xl font-bold tracking-tight sm:text-4xl"
+          className="text-4xl font-extrabold tracking-tight sm:text-5xl"
         >
           About Me
         </motion.h2>

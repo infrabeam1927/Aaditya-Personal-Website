@@ -90,7 +90,7 @@ export function Aaditya() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl"
+            className="text-5xl font-extrabold leading-[1.05] tracking-tighter sm:text-6xl lg:text-7xl"
           >
             Hi, I&apos;m <span className="text-gradient">Aaditya</span>. I
             bridge the gap between hardware precision and intelligent
