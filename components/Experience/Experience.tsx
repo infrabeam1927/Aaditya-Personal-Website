@@ -4,11 +4,13 @@ import { motion } from "framer-motion";
 import { Briefcase, GraduationCap } from "lucide-react";
 import experienceData from "@/data/experience.json";
 import type { ExperienceItem } from "@/lib/types";
+import { EXPERIENCE_TYPE_STYLES } from "@/lib/colors";
 
 const experience = experienceData as ExperienceItem[];
 
 function TimelineCard({ item, index }: { item: ExperienceItem; index: number }) {
   const Icon = item.type === "education" ? GraduationCap : Briefcase;
+  const styles = EXPERIENCE_TYPE_STYLES[item.type];
 
   return (
     <motion.div
@@ -18,16 +20,22 @@ function TimelineCard({ item, index }: { item: ExperienceItem; index: number }) 
       transition={{ duration: 0.5, delay: (index % 2) * 0.05 }}
       className="relative pl-16"
     >
-      <span className="absolute left-4 top-1.5 flex h-8 w-8 -translate-x-1/2 items-center justify-center rounded-full border-2 border-accent-500 bg-white text-accent-600 dark:bg-zinc-950 dark:text-accent-400">
+      <span
+        className={`absolute left-4 top-1.5 flex h-8 w-8 -translate-x-1/2 items-center justify-center rounded-full border-2 bg-white dark:bg-zinc-950 ${styles.ring} ${styles.icon}`}
+      >
         <Icon className="h-4 w-4" />
       </span>
 
-      <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-6 transition-colors hover:border-accent-400 dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-accent-500">
+      <div
+        className={`rounded-2xl border border-zinc-200 bg-zinc-50 p-6 transition-colors dark:border-zinc-800 dark:bg-zinc-900 ${styles.hoverBorder}`}
+      >
         <div className="flex flex-wrap items-baseline justify-between gap-2">
           <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">
             {item.role}
           </h3>
-          <span className="font-mono text-xs uppercase tracking-widest text-accent-600 dark:text-accent-400">
+          <span
+            className={`font-mono text-xs uppercase tracking-widest ${styles.period}`}
+          >
             {item.period}
           </span>
         </div>
@@ -43,7 +51,9 @@ function TimelineCard({ item, index }: { item: ExperienceItem; index: number }) 
               key={highlight}
               className="flex gap-2 text-sm text-zinc-600 dark:text-zinc-400"
             >
-              <span className="mt-2 h-1 w-1 flex-shrink-0 rounded-full bg-accent-500" />
+              <span
+                className={`mt-2 h-1 w-1 flex-shrink-0 rounded-full ${item.type === "education" ? "bg-sky-500" : "bg-accent-500"}`}
+              />
               {highlight}
             </li>
           ))}

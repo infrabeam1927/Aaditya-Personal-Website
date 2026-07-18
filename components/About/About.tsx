@@ -7,6 +7,7 @@ import {
   Trophy,
   Dumbbell,
 } from "lucide-react";
+import { INTEREST_ACCENTS } from "@/lib/colors";
 
 interface Interest {
   label: string;
@@ -76,12 +77,14 @@ export function About() {
                 Beyond the Code
               </h3>
               <div className="mt-4 grid grid-cols-2 gap-3">
-                {INTERESTS.map((interest) => (
+                {INTERESTS.map((interest, index) => (
                   <div
                     key={interest.label}
                     className="flex flex-col items-start gap-2 rounded-xl border border-zinc-200 bg-white p-4 transition-colors hover:border-accent-400 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:border-accent-500"
                   >
-                    <interest.icon className="h-5 w-5 text-accent-500" />
+                    <interest.icon
+                      className={`h-5 w-5 ${INTEREST_ACCENTS[index % INTEREST_ACCENTS.length]}`}
+                    />
                     <span className="text-sm font-medium text-zinc-700 dark:text-zinc-300">
                       {interest.label}
                     </span>
