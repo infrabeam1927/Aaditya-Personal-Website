@@ -1,21 +1,21 @@
 [
   {
-    "id": "incoming-developer",
-    "role": "Incoming Developer",
-    "organization": "Financial Institution",
-    "period": "Starting July 2026",
+    "id": "td-wealth-developer",
+    "role": "Developer, Business Information & Transformation",
+    "organization": "TD Wealth",
+    "period": "2026 – Present",
     "type": "work",
-    "description": "Joining a fintech engineering team to build and modernize software systems, bringing an engineering-first approach to full-stack development and automation.",
+    "description": "Building and maintaining End User Computing (EUC) solutions for business information and transformation initiatives, working primarily in VBA and Python.",
     "highlights": [
-      "Transitioning from hardware-focused engineering into a full-time software developer role",
-      "Focused on building reliable, data-driven financial applications"
+      "Develop and maintain EUC tools in VBA and Python across the business",
+      "Bring a full-stack, engineering-first approach to internal transformation projects"
     ]
   },
   {
     "id": "operations-analyst",
     "role": "Operations Analyst",
     "organization": "Blumont Annuity",
-    "period": "2023 – 2026",
+    "period": "2025 – 2026",
     "type": "work",
     "description": "Owned and optimized data workflows across annuity operations, replacing manual processes with automated, auditable pipelines.",
     "highlights": [
@@ -28,7 +28,7 @@
     "id": "app-programmer-analyst",
     "role": "Application Programmer Analyst (Internship)",
     "organization": "Ontario Public Service",
-    "period": "16-month term",
+    "period": "2023 – 2024",
     "type": "work",
     "description": "Contributed to a 16-month internship focused on legacy system modernization within a large public sector technology environment.",
     "highlights": [
