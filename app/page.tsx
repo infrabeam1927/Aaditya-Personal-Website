@@ -1,6 +1,7 @@
 import { Aaditya } from "@/components/Aaditya/Aaditya";
 import { About } from "@/components/About/About";
 import { Experience } from "@/components/Experience/Experience";
+import { Education } from "@/components/Education/Education";
 import { Projects } from "@/components/Projects/Projects";
 import { Contact } from "@/components/Contact/Contact";
 import { ThemeToggle } from "@/components/ThemeToggle/ThemeToggle";
@@ -8,6 +9,7 @@ import { ThemeToggle } from "@/components/ThemeToggle/ThemeToggle";
 const NAV_LINKS = [
   { label: "About", href: "#about" },
   { label: "Experience", href: "#experience" },
+  { label: "Education", href: "#education" },
   { label: "Projects", href: "#projects" },
   { label: "Contact", href: "#contact" },
 ];
@@ -41,6 +43,7 @@ export default function Home() {
         <Aaditya />
         <About />
         <Experience />
+        <Education />
         <Projects />
         <Contact />
       </main>

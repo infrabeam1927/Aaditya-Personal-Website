@@ -36,17 +36,5 @@
       "Developed internal software tools to support day-to-day operations",
       "Managed and optimized databases supporting production applications"
     ]
-  },
-  {
-    "id": "mcmaster-degree",
-    "role": "Mechatronics Engineering, B.Eng.",
-    "organization": "McMaster University",
-    "period": "Graduated",
-    "type": "education",
-    "description": "Built a strong foundation across hardware, embedded systems, controls, and software — the engineering mindset that now drives a systematic approach to building applications.",
-    "highlights": [
-      "Coursework spanning embedded systems, control theory, and software design",
-      "Hands-on capstone and lab projects blending hardware precision with software logic"
-    ]
   }
 ]
