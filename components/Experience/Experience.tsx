@@ -72,7 +72,7 @@ export function Experience() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.5 }}
-          className="text-3xl font-bold tracking-tight sm:text-4xl"
+          className="text-4xl font-extrabold tracking-tight sm:text-5xl"
         >
           Experience
         </motion.h2>
