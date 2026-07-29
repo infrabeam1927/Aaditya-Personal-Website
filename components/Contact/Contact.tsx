@@ -23,7 +23,7 @@ const LINKS = [
 
 export function Contact() {
   return (
-    <section id="contact" className="section-padding py-24 sm:py-32">
+    <section id="contact" className="section-padding scroll-mt-24 py-24 sm:py-32">
       <div className="mx-auto max-w-3xl text-center">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
