@@ -22,7 +22,7 @@ export function Projects() {
   return (
     <section
       id="projects"
-      className="section-padding bg-zinc-50/70 py-24 dark:bg-white/[0.02] sm:py-32"
+      className="section-padding scroll-mt-24 bg-zinc-50/70 py-24 dark:bg-white/[0.02] sm:py-32"
     >
       <div className="mx-auto max-w-6xl">
         <motion.h2

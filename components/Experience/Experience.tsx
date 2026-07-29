@@ -9,7 +9,7 @@ const experience = experienceData as ExperienceItem[];
 
 export function Experience() {
   return (
-    <section id="experience" className="section-padding py-24 sm:py-32">
+    <section id="experience" className="section-padding scroll-mt-24 py-24 sm:py-32">
       <div className="mx-auto max-w-4xl">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
