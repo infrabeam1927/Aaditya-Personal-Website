@@ -6,10 +6,10 @@ import { Github, ArrowUpRight } from "lucide-react";
 import projectsData from "@/data/projects.json";
 import type { Project } from "@/lib/types";
 import { PROJECT_FILTERS, filterProjects, ProjectFilter } from "@/lib/filterProjects";
+import { GITHUB_URL } from "@/lib/config";
 import { ProjectCard } from "./ProjectCard";
 
 const projects = projectsData as Project[];
-const GITHUB_URL = "https://github.com/infrabeam1927";
 
 export function Projects() {
   const [filter, setFilter] = useState<ProjectFilter>("All");

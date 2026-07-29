@@ -2,8 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, Github } from "lucide-react";
-
-const GITHUB_URL = "https://github.com/infrabeam1927";
+import { GITHUB_URL } from "@/lib/config";
 
 function scrollToProjects() {
   document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" });

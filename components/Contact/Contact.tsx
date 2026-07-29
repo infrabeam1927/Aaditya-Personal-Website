@@ -2,21 +2,22 @@
 
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail } from "lucide-react";
+import { EMAIL, GITHUB_URL, LINKEDIN_URL } from "@/lib/config";
 
 const LINKS = [
   {
     label: "Email",
-    href: "mailto:skaadityaroshan@gmail.com",
+    href: `mailto:${EMAIL}`,
     icon: Mail,
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/aadityaroshan/",
+    href: LINKEDIN_URL,
     icon: Linkedin,
   },
   {
     label: "GitHub",
-    href: "https://github.com/infrabeam1927",
+    href: GITHUB_URL,
     icon: Github,
   },
 ];
