@@ -47,7 +47,7 @@ export function ProjectCard({ project }: { project: Project }) {
           href={project.codeUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex w-fit items-center gap-1.5 text-sm font-medium text-accent-600 transition-colors hover:text-accent-700 dark:text-accent-400 dark:hover:text-accent-300"
+          className="inline-flex w-fit items-center gap-1.5 text-sm font-medium text-accent-600 transition-colors hover:text-accent-700 active:opacity-60 dark:text-accent-400 dark:hover:text-accent-300"
         >
           View Code
           <ExternalLink className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
@@ -58,7 +58,7 @@ export function ProjectCard({ project }: { project: Project }) {
             href={project.demoUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex w-fit items-center gap-1.5 text-sm font-medium text-zinc-600 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
+            className="inline-flex w-fit items-center gap-1.5 text-sm font-medium text-zinc-600 transition-colors hover:text-zinc-900 active:opacity-60 dark:text-zinc-400 dark:hover:text-zinc-100"
           >
             Live Demo
             <ExternalLink className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />

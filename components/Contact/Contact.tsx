@@ -61,7 +61,7 @@ export function Contact() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={link.label}
-              className="group flex h-14 w-14 items-center justify-center rounded-full border border-zinc-200 bg-zinc-50 text-zinc-700 shadow-sm transition-all hover:-translate-y-1 hover:border-accent-500 hover:bg-accent-500 hover:text-white hover:shadow-lg hover:shadow-accent-500/30 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300"
+              className="group flex h-14 w-14 items-center justify-center rounded-full border border-zinc-200 bg-zinc-50 text-zinc-700 shadow-sm transition-all hover:-translate-y-1 hover:border-accent-500 hover:bg-accent-500 hover:text-white hover:shadow-lg hover:shadow-accent-500/30 active:scale-90 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300"
             >
               <link.icon className="h-6 w-6" />
             </a>

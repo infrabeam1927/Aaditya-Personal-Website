@@ -12,7 +12,7 @@ export function ThemeToggle() {
     <button
       onClick={toggleTheme}
       aria-label="Toggle color theme"
-      className="relative flex h-9 w-16 items-center rounded-full border border-zinc-300 bg-zinc-100 px-1 transition-colors dark:border-zinc-700 dark:bg-zinc-800"
+      className="relative flex h-9 w-16 items-center rounded-full border border-zinc-300 bg-zinc-100 px-1 transition-all active:scale-95 dark:border-zinc-700 dark:bg-zinc-800"
     >
       <motion.span
         layout

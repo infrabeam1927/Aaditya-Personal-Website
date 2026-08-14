@@ -42,7 +42,7 @@ export function Projects() {
               <button
                 key={option}
                 onClick={() => setFilter(option)}
-                className={`relative rounded-full px-5 py-2 text-sm font-medium transition-colors ${
+                className={`relative rounded-full px-5 py-2 text-sm font-medium transition-all active:scale-95 ${
                   active
                     ? "text-white"
                     : "text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
@@ -78,6 +78,7 @@ export function Projects() {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.5 }}
             whileHover={{ scale: 1.01 }}
+            whileTap={{ scale: 0.99 }}
             className="group relative flex flex-col items-start justify-between gap-4 overflow-hidden rounded-2xl border border-accent-500/30 bg-gradient-to-br from-accent-500/10 via-zinc-50 to-zinc-50 p-8 dark:from-accent-500/10 dark:via-zinc-900 dark:to-zinc-900 sm:col-span-2 sm:flex-row sm:items-center"
           >
             <div className="flex items-center gap-4">
